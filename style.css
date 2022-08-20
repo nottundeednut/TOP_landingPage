@@ -1,0 +1,56 @@
+/*variables */
+:root{
+  --primaryColor: #1f2937;
+  --secondaryColor: #f9faf8;
+}
+
+/* reset */
+body,
+p,
+a,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+/*fonts*/
+h2{
+  color: var(--secondaryColor);
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+.hero-text p, .nav li{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+h1{
+  color: var(--secondaryColor);
+  font-size: 24px;
+}
+h3{
+  color: var(--primaryColor);
+  font-size: 36px;
+  font-weight: extra-bold;
+}
+.quote p{
+  color: var(--primaryColor);
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+}
+
+/*base styles*/
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+  padding: 10px 25px;
+  background: #3882f6;
+}
+
+/*desktop styles*/
